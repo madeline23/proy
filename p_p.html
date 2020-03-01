@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>INICIO</title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<link rel="stylesheet" type="text/css" href="css/boton.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+		  integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	
+</head>
+<body style="background-color: #F5F4F4;">
+  <!-- Content here -->
+  <script type="text/javascript" src="js/fun_img.js"></script>
+	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="js/popper.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+	<div class="container-fluid" >
+	<h1 align="center" class="display-5">DISTRIBUIDORA "HERMANOS CASTILLO"</h1>
+	</div>
+	<nav class="menu">
+
+		<ul id="button">
+			<li><a href="p_p.html">Inicio</a></li>
+			<li><a href="p_d.html">Productos</a></li>
+			<li><a href="P_F.html">Pedido</a></li>
+			<li><a href="p_r.html">Rutas</a></li>
+			<li><a href="p_g.html">Redes Sociales</a></li>
+
+		</ul>
+
+	</nav>	
+	<br><br><br>
+	<center> <div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 4</div>
+    <img src="img/LOGO.jpg" style="width:100%">
+    <div class="text">Distribuidora "Hermanos Castillo"</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 4</div>
+    <img src="img/logof.jpg" style="width:100%">
+    <div class="text">Ferrero del Ecuador</div>
+  </div>
+
+ <div class="mySlides fade">
+    <div class="numbertext">3 / 4</div>
+    <img src="img/Quala.jpg" style="width:100%">
+    <div class="text">Quala</div>
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">4 /4</div>
+    <img src="img/mani.jpg" style="width:100%">
+    <div class="text">Caption Three</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+
+  <script> 
+  	var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+  </script>
+
+</div>
+
+
+	</center>
+	<br><br>
+	<div class="container">
+	<h2 align="left">DESCRIPCIÓN</h2>
+
+	<p  alt="text" align="justify">La Distribuidora "Hermanos Castillo" fue creada por Sergio Castillo en mayo del 2012, iniciando 	como un negocio familiar con cobertura en toda la provincia de Santa Elena el cual sólo se dedicaba a la distribución de 	 chocolates como Ferrero Rocher, Noggy´s, Nutellas al por mayor y menor en las diferentes tiendas de la provincia. 	Actualmente es dirigida por Emiliano Castillo, cuenta con más lineas de producción tales como "Productos Cris", "Quala", "Imporfarma", su cobertura ahora abarca hasta Puerto López en la provincia de Manabí, Playas, Posorja y Portete de la Provincia del Guayas.
+		<br><br>
+	
+	</p>
+	</div>
+	<div class="a1">
+	<fieldset alt="text" style="width: 300px; margin: 0 auto; padding: 50px; background-color: #E1918D" >
+		<legend><h2 style="font-family: Helvetica; color: black; "><br><br>Contacto</h2></legend>	
+		<label><h3>Encargada de Distribución.</h3></label>
+		<label>Nombre: Angie Castillo</label><br>
+		<label>Teléfono:</label>
+		<a href="telf:097 992 2824" class="btnllamar">0979922824</a>
+		<br>
+		<label>Redes Sociales:</label>
+		<a href="https://www.facebook.com/madeline.castillo.393"><i class="fab fa-facebook fa-2x"></i></a>
+		<label><a href="https://www.instagram.com/angie.castiillo/"><i class="fab fa-instagram fa-2x"></i></a> </label><br>
+		<label><h3>Planificador de Ruta.</h3></label>
+		<label>Nombre: Hernán Calle</label><br>
+		<label>Teléfono: <a href="telf:098 110 5169" class="btnllamar">098 110 5169</a></label><br><br>
+		<label>Redes Sociales:</label>
+		<a href="https://www.facebook.com/hernan.calleabril"><i class="fab fa-facebook fa-2x"></i></a>
+		<label><a href="https://www.instagram.com/hernanjavier7/"><i class="fab fa-instagram fa-2x"></i></a> </label>
+	</fieldset>
+</div>
+	<br>
+	<div id="copyright" class="a2">Copyright&copy; 2019 - Hernán Calle/Angie Castillo - Todos los derechos reservados</div>
+
+</body>
+</html>

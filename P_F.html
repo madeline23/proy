@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no,initial-scale=1.8, maximun-scale=1.0, minimun-scale=1.8">
+	<title>PEDIDOS</title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<link rel="icon" type="image/png" href="img/LOGO.png">
+	<link rel="stylesheet" type="text/css" href="css/boton.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+		  integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">	
+	
+</head>
+<body style="background-color: #F5F4F4;">
+	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="js/popper.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<div class="container-fluid" style="background-color: #D30D02">
+	<h1 align="center" class="display-5">PEDIDOS</h1>
+	</div>
+<nav class="menu" >
+
+		<ul id="button">
+			<li><a href="p_p.html">Inicio</a></li>
+			<li><a href="p_d.html">Productos</a></li>
+			<li><a href="p_r.html">Rutas</a></li>
+			<li><a href="p_g.html">Redes Sociales</a></li>
+		</ul>
+
+	</nav>	
+	<br><br>
+	<form action="" style="" class="formu">
+		<legend><h3 class="formu">CONTÁCTENOS</h3></legend>
+		
+	<br>
+	<p class="formulario">Nombre:</p>
+		
+		<input type="text" name="Nombre" required="true" maxlength="25" class="field">
+	<br><br>
+	<p class="formulario">Apellido:</p>
+		
+		<input type="text" name="Apellido" required="true" maxlength="25" class="field">
+		
+	<br><br>
+
+	<p>Horario de Entrega:</p>
+		
+		<input type="radio" name="Tiempo" value="dia" required="true" maxlength="10" >Mañana	
+		<br><br>
+		<input type="radio" name="Tiempo" value="tarde" required="true" maxlength="10" >Tarde
+		
+	<br><br>
+	<p class="formulario">Email:</p>
+		       
+		<input type="email" name="Nombre" required="true" maxlength="15" class="field"> 
+	
+	<br><br>
+
+	<p class="formulario">Contraseña:</p>
+		
+		<input type="password" name="pass" required="true" placeholder="Incluya números y letras" class="field">
+		
+	<br><br>
+
+	<p class="formulario">Teléfono:</p>
+		
+		<input type="tel" name="tel" required="true" maxlength="10" value="+593" class="field">
+		
+	<br><br>
+
+	<label>
+		Notificaciones Semanales:
+		<input type="range" name="Notificaciones" required="true" size="3" min="1" max="5" class="field">
+	</label>	
+	<br><br>
+
+	<p>Fecha_Comun:</p>
+				
+				<input type="date" name="date" class="field"><br><br> (Sólo Fin de Semana)
+		
+		<br><br>
+
+		<br><button type="reset" name="set" value="set" class="btn btn-green">Limpiar Pedido</button>
+	
+	<button type="submit" name="submit" value="Enviar Datos" class="btn btn-green">Enviar Pedido</button>
+
+
+	
+	
+	</form>
+
+	
+	<br><br>	
+
+	<div id="copyright" class="a2">Copyright&copy; 2019 - Hernán Calle/Angie Castillo - Todos los derechos reservados</div>
+
+</body>
+</html>
